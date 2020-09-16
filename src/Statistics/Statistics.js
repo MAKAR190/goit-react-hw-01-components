@@ -16,6 +16,9 @@ function Statistics(props) {
     </section>
   );
 }
+Statistics.defaultProps = {
+  title: "No title",
+};
 
 Statistics.propTypes = {
   title: PropTypes.string,

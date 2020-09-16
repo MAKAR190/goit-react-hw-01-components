@@ -4,9 +4,13 @@ import Profile from "./Profile/Profile";
 import user from "./Profile/user.json";
 import Statistics from "./Statistics/Statistics";
 import statisticsData from "./Statistics/statistics-data.json";
+import Friends from "./FriendList/FriendsList";
+import friendsData from "./FriendList/friend-list.json";
+import TransactionHistory from "./TransactionHistory/Transaction";
+import transactionsData from "./TransactionHistory/transactions.json";
 function App() {
   return (
-    <div className="app">
+    <div>
       <Profile
         name={user.name}
         tag={user.tag}
@@ -15,6 +19,8 @@ function App() {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={statisticsData} />
+      <Friends friends={friendsData} />
+      <TransactionHistory items={transactionsData} />
     </div>
   );
 }
