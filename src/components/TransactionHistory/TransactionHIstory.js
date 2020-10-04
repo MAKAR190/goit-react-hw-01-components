@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./Transaction-history.module.css";
+import styles from "./TransactionHistory.module.css";
 function TransactionHistory(props) {
   return (
     <table className={styles.transactionHistory}>

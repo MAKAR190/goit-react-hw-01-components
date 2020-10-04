@@ -1,3 +1,16 @@
+.item {
+  display: flex;
+  width: 15%;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+}
+.name {
+  padding-left: 4%;
+}
+.avatar {
+  padding-left: 10px;
+}
 .isOnline {
   width: 10px;
   height: 10px;
@@ -13,20 +26,4 @@
   background-color: red;
   margin-left: 15px;
   margin-top: 20px;
-}
-.friendList {
-  list-style: none;
-}
-.item {
-  display: flex;
-  width: 15%;
-  background-color: #fff;
-  margin: 10px;
-  border-radius: 5px;
-}
-.name {
-  padding-left: 4%;
-}
-.avatar {
-  padding-left: 10px;
 }
