@@ -18,7 +18,7 @@ function App() {
         location={user.location}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={statisticsData} />
+      <Statistics title="Upload Stats" stats={statisticsData} />
       <FriendList friends={friendsData} />
       <TransactionHistory items={transactionsData} />
     </div>

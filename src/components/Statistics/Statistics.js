@@ -4,9 +4,7 @@ import PropTypes from "prop-types";
 function Statistics(props) {
   return (
     <section className={styles.statistics}>
-      {props.title.length > 0 && (
-        <h2 className={styles.title}>{props.title}</h2>
-      )}
+      {props.title && <h2 className={styles.title}>{props.title}</h2>}
       <ul className={styles.list}>
         {props.stats.map((obj) => (
           <li key={obj.id}>
