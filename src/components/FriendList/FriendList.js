@@ -6,7 +6,7 @@ function FriendList(props) {
   return (
     <ul className={styles.friendList}>
       {props.friends.map((friend) => (
-          <FriendListItem avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline} id={friend.id} />
+          <FriendListItem avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline} key={friend.id} />
       ))}
     </ul>
   );

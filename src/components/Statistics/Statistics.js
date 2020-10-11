@@ -21,4 +21,7 @@ Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array.isRequired,
 };
+Statistics.defaultProps = {
+  title: ''
+}
 export default Statistics;
